@@ -1,38 +1,38 @@
 # Object-Oriented-Programming
-📱 Smartphone & Vehicle OOP Project
-Overview
+## 📱 Smartphone & Vehicle OOP Project
+### Overview
 
 This project demonstrates Object-Oriented Programming (OOP) concepts in Python through two examples:
 
-A Smartphone class with a specialized GamingPhone subclass.
+* A Smartphone class with a specialized GamingPhone subclass.
 
-A polymorphism example with different types of vehicles that implement the same action (move()) in unique ways.
+* A polymorphism example with different types of vehicles that implement the same action (move()) in unique ways.
 
-Features
+### Features
 Smartphone & GamingPhone
 
-Create smartphones with attributes like brand, model, storage, and battery.
+* Create smartphones with attributes like brand, model, storage, and battery.
 
-Call, charge, and display information about a device.
+* Call, charge, and display information about a device.
 
-GamingPhone extends Smartphone with GPU support and a play_game() method.
+* GamingPhone extends Smartphone with GPU support and a play_game() method.
 
-Supports method overriding (polymorphism).
+* Supports method overriding (polymorphism).
 
 ## Vehicles with Polymorphism
 
-A base Vehicle class with a move() method.
+* A base Vehicle class with a move() method.
 
-Subclasses (Car, Plane, Boat) implement move() differently:
+* Subclasses (Car, Plane, Boat) implement move() differently:
 
-🚗 Car → Driving
+- 🚗 Car → Driving
 
-✈️ Plane → Flying
+- ✈️ Plane → Flying
 
-🚤 Boat → Sailing
+- 🚤 Boat → Sailing
 
-Example Usage
-# Smartphone
+# Example Usage
+## Smartphone
 phone1 = Smartphone("Samsung", "Galaxy S24", 256, 5000)
 print(phone1.info())
 
@@ -45,7 +45,7 @@ vehicles = [Car(), Plane(), Boat()]
 for v in vehicles:
     print(v.move())
 
-Sample Output
+## Sample Output
 Samsung Galaxy S24 | Storage: 256GB | Battery: 5000mAh
 Asus ROG 7 is playing PUBG on Adreno 740 GPU!
 Asus ROG 7 supports fast charging ⚡!
@@ -53,10 +53,10 @@ Asus ROG 7 supports fast charging ⚡!
 ✈️ Flying in the sky
 🚤 Sailing on water
 
-Concepts Demonstrated
+# Concepts Demonstrated
 
-Encapsulation → Grouping attributes & methods into classes
+* Encapsulation → Grouping attributes & methods into classes
 
-Inheritance → GamingPhone extends Smartphone
+* Inheritance → GamingPhone extends Smartphone
 
-Polymorphism → Same method (charge() or move()) behaves differently depending on the object
+* Polymorphism → Same method (charge() or move()) behaves differently depending on the object
